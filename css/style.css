@@ -1,0 +1,90 @@
+.jumbotron{
+	background-attachment:fixed;
+	max-height:600px;
+	margin-bottom:0px;
+	padding:0px;
+}
+.alt1{
+	background:#eee;
+	min-height:300px;
+}
+.padding{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.alt2{
+	min-height:300px;
+}
+button{
+	color:#eee;
+}
+img{
+	margin:0 auto;
+}
+.alt3{
+	background:#eee;
+}
+.alt4{
+	background:#333;
+	color:#fff;
+	min-height:150px;
+	text-align:center;
+}
+.slide1 {
+    background-image:url('../pica.jpg');
+}
+.slide2 {
+    background-image:url('../pic2.jpg');
+}
+.slide3 {
+    background-image:url('../pic3.jpg');
+}
+/* Carousel Fade Effect */
+.carousel.carousel-fade .item {
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -ms-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+    opacity: .5;
+}
+.carousel.carousel-fade .active.item {
+    opacity: 1;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.carousel-overlay {
+    position: absolute;
+    bottom: 100px;
+    right: 0;
+    left: 0;
+}
+#headingabout{
+	font:50px Tahoma;
+	color:#000000;
+	text-shadow: #474747 1px 1px 1px;
+}
+h2{
+	font:helvetica;
+	text-align:center;
+	max-width:80%;
+}
+p{
+	font:50 px helvetica;
+	text-align:center;
+}
+#links{
+	text-align:center;
+}
+#button{
+	text-align:center;
+}
+#pannoying{
+	text-align:center;
+	font-size:150%;
+}

@@ -1,0 +1,106 @@
+<DOCTYPE! html>
+<html>
+	<head>
+		<title>Cathal Donnelly Grinds</title>
+		<meta name="viewport" content="width=device-width, initial scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css"/>
+		<link rel="stylesheet" href="css/style2.css"/>
+	</head>
+	
+	<body>
+		<div class="navbar-ststic-top navbar-inverse" id="home">
+			<div class="container">
+				<div class="navbar-brand">
+				<a href="index.html">Home</a>
+				</div>
+				<button class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
+				Menu
+				</button>
+				<div class="collapse navbar-collapse navHeaderCollapse">
+					<ul class="nav navbar-nav navbar-right">
+						<li><a href="index.html">About</a></li>
+						<li><a href="index.html">Reviews</a></li>
+						<li><a href="index4.html">Contact</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		
+		<div class="alt1 padding" id="about">
+			<div class="container">
+			<h2>Timetable for History grinds</h2>	
+			</div>
+		</div>
+		
+		<div class="alt2 padding" id="reviews">
+		<div class="container">
+			<table>
+			 <tr>
+				<th>Day</th>
+				<th>Times Available</th>
+			 </tr>
+			 <tr>
+				<td>Monday</td>
+				<td>7pm-8pm</td>
+			</tr>
+			<tr>
+				<td>Tuesday</td>
+				<td>7pm-8pm</td>
+			</tr>
+				<td>Wednesday</td>
+				<td>7pm-8pm</td>
+			<tr>
+				<td>Thursday</td>
+				<td>7pm-8pm</td>
+			</tr>
+				<td>Friday</td>
+				<td>7pm-8pm</td>
+			<tr>
+				<td>Saturday</td>
+				<td>2pm-4pm</td>
+			</tr>
+			<tr>
+				<td>Sunday</td>
+				<td>2pm-4pm</td>
+			</tr>
+			</table>
+			<script>
+			if (window.print) {
+				document.write('<form> '
+				+ '<input type=button name=print value="Click" '
+				+ 'onClick="javascript:window.print()"> To Print this page!</form>');
+				}
+			</script>
+		</div>
+		</div>
+		
+		<div class="alt4">
+			<div class="container">
+				<footer>&copy; Cathal Donnelly<br/><a href="#home">Back to top</a></footer>
+			</div>
+		</div>
+			
+	</body>
+		
+		
+	
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js">
+	</script>
+	<script src="js/bootstrap.js">
+		$(function() {
+		  $('a[href*=#]:not([href=#])').click(function() {
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+			  var target = $(this.hash);
+			  target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+			  if (target.length) {
+				$('html,body').animate({
+				  scrollTop: target.offset().top
+				}, 1000);
+				return false;
+			  }
+			}
+		  });
+		});
+	</script>
+	</body>
+</html>

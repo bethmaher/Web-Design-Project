@@ -1,0 +1,21 @@
+.alt1{
+	background:#eee;
+	min-height:200px;
+	padding:20px;
+}
+.padding{
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.alt2{
+	min-height:800px;
+}
+button{
+	color:#eee;
+}
+.alt4{
+	background:#333;
+	color:#fff;
+	min-height:150px;
+	text-align:center;
+}
