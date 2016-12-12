@@ -72,7 +72,6 @@ img{
 h2{
 	font:helvetica;
 	text-align:center;
-	max-width:80%;
 }
 p{
 	font:50 px helvetica;
@@ -87,4 +86,10 @@ p{
 #pannoying{
 	text-align:center;
 	font-size:150%;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.heading{
+	text-align:center;
 }
