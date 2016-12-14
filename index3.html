@@ -88,8 +88,8 @@
 	
 	<script src="http://code.jquery.com/jquery-1.11.0.min.js">
 	</script>
-	<script src="js/bootstrap.js">
-		$(function() {
+	<script>
+			$(function() {
 		  $('a[href*=#]:not([href=#])').click(function() {
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 			  var target = $(this.hash);
@@ -103,6 +103,6 @@
 			}
 		  });
 		});
-	</script>
+		</script>
 	</body>
 </html>
